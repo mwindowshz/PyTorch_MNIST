@@ -1,4 +1,5 @@
 # code based on https://adventuresinmachinelearning.com/pytorch-tutorial-deep-learning/
+
 import torch
 from torch.autograd import Variable
 import torch.nn as nn
