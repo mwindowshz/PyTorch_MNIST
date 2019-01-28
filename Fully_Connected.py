@@ -37,7 +37,7 @@ print(net)
 
 #hyperparametrers
 learning_rate = 0.01
-epochs = 1
+epochs = 5
 logging_interval = 10
 batch_size = 200
 
