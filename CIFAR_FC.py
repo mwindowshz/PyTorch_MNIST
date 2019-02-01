@@ -113,7 +113,7 @@ imgData = test_loader.dataset.test_data[1]
 from matplotlib import pyplot as plt
 plt.imshow(imgData, interpolation='bicubic')
 plt.show()
-
+import pickle
 def unpickle(file):
     with open(file, 'rb') as fo:
         dict1 = pickle.load(fo, encoding='bytes')
